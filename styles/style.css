@@ -75,9 +75,11 @@
 .service-container {
   display: flex;
   justify-content: space-around;
-  padding: 10px;
+  padding: 30px;
   background-image: url("/images/background.png"),
-    linear-gradient(45deg, #111, #111);
+    linear-gradient(45deg, #333, #222);
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .box {
   width: 200px;
@@ -102,9 +104,41 @@
   margin-bottom: 15px;
 }
 .box-btn {
-  background-color: #222;
+  background-color: red;
   color: white;
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
+}
+.contact-info {
+  display: flex;
+  justify-content: space-around;
+}
+.contact-section {
+  padding: 100px 0;
+  background-color: #111;
+  color: white;
+}
+.section {
+  width: 200px;
+  font-size: 18px;
+}
+ul li {
+  list-style: none;
+  padding: 2px 0;
+}
+h3 {
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+.logo-description {
+  margin-top: 20px;
+}
+.my-hr {
+  border-color: white; /* Replace "red" with your desired color */
+  margin-top: 20px;
+}
+.copyright {
+  margin-top: 20px;
+  text-align: center;
 }
